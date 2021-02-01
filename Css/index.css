@@ -1,6 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
 body {
     background: #ffffff;
     Color: #fff; 
+}
+header{
+    background-color: black;
+    max-width: 1500px;
+    width: 450%;
+    margin: 0px;
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +18,7 @@ nav{
 h2{
     font-family: Arial, Helvetica, sans-serif ;
     color: black;
+    text-align: center;
 }
 
 h3{
@@ -21,4 +32,42 @@ p{
 }
 footer{
     color: black;
+}
+
+.Parrafo{
+    font-size: 20px;
+    color: #770808;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main img{
+    margin: auto;
+    display: block;
+}
+nav ul li {
+    list-style: none;
+    background-color: black;
+}
+header nav ul li{
+    float: left;
+    text-align: center;
+    margin: auto;      
+}
+header nav{
+    overflow: hidden;
+}
+header nav ul li a{
+    padding: 10px 100px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: rgb(22, 22, 22);
+}
+
+.main{
+    
+}
+.img1{
+    float: left;
 }
