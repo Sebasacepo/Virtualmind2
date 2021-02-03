@@ -10,7 +10,7 @@ header{
     background-color: black;
     max-width: 1500px;
     width: 450%;
-    margin: 0px;
+    
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
@@ -31,8 +31,9 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 footer{
-    color: black;
+    color: white;
     text-align: center;
+    background-color: black;
 }
 
 .Parrafo{
